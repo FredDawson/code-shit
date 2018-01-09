@@ -1,14 +1,15 @@
 /*Header*/
 
 /*need to get this sorted out so it actually, controls the header*/
-header {
-  position:fixed;
-  background-color: black;
+.header {
+  position: relative;
+  background-color: white;
+  color: blue;
 }
 
 /* Navigation */
 
-.navigation {
+#navigation {
   box-sizing: border-box;
   background-color: #3587A4;
   overflow: auto;
@@ -25,10 +26,10 @@ ul {
   margin: 0;
 }
 
-li {
+li a {
   color: #FFF;
   display: inline-block;
-  font-family: 'Oxygen', sans-serif;
+  font-family: Oxygen, sans-serif;
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 2px;
